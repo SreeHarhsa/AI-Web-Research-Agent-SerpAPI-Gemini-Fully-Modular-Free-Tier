@@ -1,0 +1,72 @@
+INFO:__main__:Reading Gemini API key from: /home/harsha/Downloads/Gemini-API.docx
+INFO:__main__:Reading SerpAPI key from: /home/harsha/Downloads/Serp_API.odt
+INFO:__main__:Reading Gemini API key from: /home/harsha/Downloads/Gemini-API.docx
+INFO:__main__:Reading SerpAPI key from: /home/harsha/Downloads/Serp_API.odt
+INFO:__main__:Reading Gemini API key from: /home/harsha/Downloads/Gemini-API.docx
+INFO:__main__:Reading SerpAPI key from: /home/harsha/Downloads/Serp_API.odt
+INFO:__main__:Reading Gemini API key from: /home/harsha/Downloads/Gemini-API.docx
+INFO:__main__:Reading SerpAPI key from: /home/harsha/Downloads/Serp_API.odt
+INFO:__main__:Reading Gemini API key from: /home/harsha/Downloads/Gemini-API.docx
+INFO:__main__:Reading SerpAPI key from: /home/harsha/Downloads/Serp_API.odt
+INFO:__main__:Reading Gemini API key from: /home/harsha/Downloads/Gemini-API.docx
+INFO:__main__:Reading SerpAPI key from: /home/harsha/Downloads/Serp_API.odt
+INFO:__main__:Reading Gemini API key from: /home/harsha/Downloads/Gemini-API.docx
+INFO:__main__:Reading SerpAPI key from: /home/harsha/Downloads/Serp_API.odt
+INFO:__main__:Reading Gemini API key from: /home/harsha/Downloads/Gemini-API.docx
+INFO:__main__:Reading SerpAPI key from: /home/harsha/Downloads/Serp_API.odt
+INFO:__main__:Reading Gemini API key from: /home/harsha/Downloads/Gemini-API.docx
+INFO:__main__:Reading SerpAPI key from: /home/harsha/Downloads/Serp_API.odt
+INFO:__main__:Reading Gemini API key from: /home/harsha/Downloads/Gemini-API.docx
+INFO:__main__:Reading SerpAPI key from: /home/harsha/Downloads/Serp_API.odt
+INFO:__main__:Reading Gemini API key from: /home/harsha/Downloads/Gemini-API.docx
+INFO:__main__:Reading SerpAPI key from: /home/harsha/Downloads/Serp_API.odt
+INFO:__main__:SerpAPI search attempt 1/3
+INFO:__main__:Reading Gemini API key from: /home/harsha/Downloads/Gemini-API.docx
+INFO:__main__:Reading SerpAPI key from: /home/harsha/Downloads/Serp_API.odt
+INFO:__main__:SerpAPI search attempt 1/3
+INFO:__main__:Reading Gemini API key from: /home/harsha/Downloads/Gemini-API.docx
+INFO:__main__:Reading SerpAPI key from: /home/harsha/Downloads/Serp_API.odt
+INFO:__main__:Reading Gemini API key from: /home/harsha/Downloads/Gemini-API.docx
+INFO:__main__:Reading SerpAPI key from: /home/harsha/Downloads/Serp_API.odt
+INFO:__main__:Reading Gemini API key from: /home/harsha/Downloads/Gemini-API.docx
+INFO:__main__:Reading SerpAPI key from: /home/harsha/Downloads/Serp_API.odt
+INFO:__main__:SerpAPI search attempt 1/3
+INFO:__main__:SerpAPI search attempt 1/3
+INFO:__main__:Scraping attempt 1/2 for URL: https://www.sciencedaily.com/news/computers_math/artificial_intelligence/
+INFO:__main__:Scraping attempt 1/2 for URL: https://devabit.com/blog/top-11-new-technologies-in-ai-exploring-the-latest-trends/
+ERROR:__main__:Failed to summarize with Gemini API: 404 models/gemini-1.0-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+INFO:__main__:Scraping attempt 1/2 for URL: https://www.forbes.com/councils/forbestechcouncil/2025/03/05/clarifying-the-latest-ai-advancements/
+ERROR:__main__:Failed to summarize with Gemini API: 404 models/gemini-1.0-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+INFO:__main__:Scraping attempt 1/2 for URL: https://blog.google/technology/ai/2024-ai-extraordinary-progress-advancement/
+ERROR:__main__:Failed to summarize with Gemini API: 404 models/gemini-1.0-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+INFO:__main__:Scraping attempt 1/2 for URL: https://www.artificialintelligence-news.com/
+INFO:__main__:Reading Gemini API key from: /home/harsha/Downloads/Gemini-API.docx
+INFO:__main__:Reading SerpAPI key from: /home/harsha/Downloads/Serp_API.odt
+INFO:__main__:Available models: ['models/chat-bison-001', 'models/text-bison-001', 'models/embedding-gecko-001', 'models/gemini-1.0-pro-vision-latest', 'models/gemini-pro-vision', 'models/gemini-1.5-pro-latest', 'models/gemini-1.5-pro-001', 'models/gemini-1.5-pro-002', 'models/gemini-1.5-pro', 'models/gemini-1.5-flash-latest', 'models/gemini-1.5-flash-001', 'models/gemini-1.5-flash-001-tuning', 'models/gemini-1.5-flash', 'models/gemini-1.5-flash-002', 'models/gemini-1.5-flash-8b', 'models/gemini-1.5-flash-8b-001', 'models/gemini-1.5-flash-8b-latest', 'models/gemini-1.5-flash-8b-exp-0827', 'models/gemini-1.5-flash-8b-exp-0924', 'models/gemini-2.5-pro-exp-03-25', 'models/gemini-2.5-pro-preview-03-25', 'models/gemini-2.5-flash-preview-04-17', 'models/gemini-2.0-flash-exp', 'models/gemini-2.0-flash', 'models/gemini-2.0-flash-001', 'models/gemini-2.0-flash-exp-image-generation', 'models/gemini-2.0-flash-lite-001', 'models/gemini-2.0-flash-lite', 'models/gemini-2.0-flash-lite-preview-02-05', 'models/gemini-2.0-flash-lite-preview', 'models/gemini-2.0-pro-exp', 'models/gemini-2.0-pro-exp-02-05', 'models/gemini-exp-1206', 'models/gemini-2.0-flash-thinking-exp-01-21', 'models/gemini-2.0-flash-thinking-exp', 'models/gemini-2.0-flash-thinking-exp-1219', 'models/learnlm-1.5-pro-experimental', 'models/learnlm-2.0-flash-experimental', 'models/gemma-3-1b-it', 'models/gemma-3-4b-it', 'models/gemma-3-12b-it', 'models/gemma-3-27b-it', 'models/embedding-001', 'models/text-embedding-004', 'models/gemini-embedding-exp-03-07', 'models/gemini-embedding-exp', 'models/aqa', 'models/imagen-3.0-generate-002', 'models/veo-2.0-generate-001', 'models/gemini-2.0-flash-live-001']
+INFO:__main__:Available models: ['models/chat-bison-001', 'models/text-bison-001', 'models/embedding-gecko-001', 'models/gemini-1.0-pro-vision-latest', 'models/gemini-pro-vision', 'models/gemini-1.5-pro-latest', 'models/gemini-1.5-pro-001', 'models/gemini-1.5-pro-002', 'models/gemini-1.5-pro', 'models/gemini-1.5-flash-latest', 'models/gemini-1.5-flash-001', 'models/gemini-1.5-flash-001-tuning', 'models/gemini-1.5-flash', 'models/gemini-1.5-flash-002', 'models/gemini-1.5-flash-8b', 'models/gemini-1.5-flash-8b-001', 'models/gemini-1.5-flash-8b-latest', 'models/gemini-1.5-flash-8b-exp-0827', 'models/gemini-1.5-flash-8b-exp-0924', 'models/gemini-2.5-pro-exp-03-25', 'models/gemini-2.5-pro-preview-03-25', 'models/gemini-2.5-flash-preview-04-17', 'models/gemini-2.0-flash-exp', 'models/gemini-2.0-flash', 'models/gemini-2.0-flash-001', 'models/gemini-2.0-flash-exp-image-generation', 'models/gemini-2.0-flash-lite-001', 'models/gemini-2.0-flash-lite', 'models/gemini-2.0-flash-lite-preview-02-05', 'models/gemini-2.0-flash-lite-preview', 'models/gemini-2.0-pro-exp', 'models/gemini-2.0-pro-exp-02-05', 'models/gemini-exp-1206', 'models/gemini-2.0-flash-thinking-exp-01-21', 'models/gemini-2.0-flash-thinking-exp', 'models/gemini-2.0-flash-thinking-exp-1219', 'models/learnlm-1.5-pro-experimental', 'models/learnlm-2.0-flash-experimental', 'models/gemma-3-1b-it', 'models/gemma-3-4b-it', 'models/gemma-3-12b-it', 'models/gemma-3-27b-it', 'models/embedding-001', 'models/text-embedding-004', 'models/gemini-embedding-exp-03-07', 'models/gemini-embedding-exp', 'models/aqa', 'models/imagen-3.0-generate-002', 'models/veo-2.0-generate-001', 'models/gemini-2.0-flash-live-001']
+INFO:__main__:SerpAPI search attempt 1/3
+INFO:__main__:Scraping attempt 1/2 for URL: https://www.sciencedaily.com/news/computers_math/artificial_intelligence/
+INFO:__main__:Scraping attempt 1/2 for URL: https://devabit.com/blog/top-11-new-technologies-in-ai-exploring-the-latest-trends/
+INFO:__main__:Scraping attempt 1/2 for URL: https://www.forbes.com/councils/forbestechcouncil/2025/03/05/clarifying-the-latest-ai-advancements/
+INFO:__main__:Scraping attempt 1/2 for URL: https://blog.google/technology/ai/2024-ai-extraordinary-progress-advancement/
+INFO:__main__:Scraping attempt 1/2 for URL: https://www.crescendo.ai/news/latest-ai-news-and-updates
+INFO:__main__:Reading Gemini API key from: /home/harsha/Downloads/Gemini-API.docx
+INFO:__main__:Reading SerpAPI key from: /home/harsha/Downloads/Serp_API.odt
+INFO:__main__:Available models: ['models/chat-bison-001', 'models/text-bison-001', 'models/embedding-gecko-001', 'models/gemini-1.0-pro-vision-latest', 'models/gemini-pro-vision', 'models/gemini-1.5-pro-latest', 'models/gemini-1.5-pro-001', 'models/gemini-1.5-pro-002', 'models/gemini-1.5-pro', 'models/gemini-1.5-flash-latest', 'models/gemini-1.5-flash-001', 'models/gemini-1.5-flash-001-tuning', 'models/gemini-1.5-flash', 'models/gemini-1.5-flash-002', 'models/gemini-1.5-flash-8b', 'models/gemini-1.5-flash-8b-001', 'models/gemini-1.5-flash-8b-latest', 'models/gemini-1.5-flash-8b-exp-0827', 'models/gemini-1.5-flash-8b-exp-0924', 'models/gemini-2.5-pro-exp-03-25', 'models/gemini-2.5-pro-preview-03-25', 'models/gemini-2.5-flash-preview-04-17', 'models/gemini-2.0-flash-exp', 'models/gemini-2.0-flash', 'models/gemini-2.0-flash-001', 'models/gemini-2.0-flash-exp-image-generation', 'models/gemini-2.0-flash-lite-001', 'models/gemini-2.0-flash-lite', 'models/gemini-2.0-flash-lite-preview-02-05', 'models/gemini-2.0-flash-lite-preview', 'models/gemini-2.0-pro-exp', 'models/gemini-2.0-pro-exp-02-05', 'models/gemini-exp-1206', 'models/gemini-2.0-flash-thinking-exp-01-21', 'models/gemini-2.0-flash-thinking-exp', 'models/gemini-2.0-flash-thinking-exp-1219', 'models/learnlm-1.5-pro-experimental', 'models/learnlm-2.0-flash-experimental', 'models/gemma-3-1b-it', 'models/gemma-3-4b-it', 'models/gemma-3-12b-it', 'models/gemma-3-27b-it', 'models/embedding-001', 'models/text-embedding-004', 'models/gemini-embedding-exp-03-07', 'models/gemini-embedding-exp', 'models/aqa', 'models/imagen-3.0-generate-002', 'models/veo-2.0-generate-001', 'models/gemini-2.0-flash-live-001']
+INFO:__main__:SerpAPI search attempt 1/3
+INFO:__main__:Scraping attempt 1/2 for URL: https://www.simplilearn.com/top-technology-trends-and-jobs-article
+INFO:__main__:Scraping attempt 1/2 for URL: https://en.arincen.com/blog/stocks/The-top-emerging-technologies
+INFO:__main__:Scraping attempt 1/2 for URL: https://www.pwc.com/us/en/tech-effect/emerging-tech/essential-eight-technologies.html
+INFO:__main__:Scraping attempt 1/2 for URL: https://explodingtopics.com/blog/technology-trends
+INFO:__main__:Scraping attempt 1/2 for URL: https://finance.yahoo.com/sectors/technology/
+INFO:__main__:Reading Gemini API key from: /home/harsha/Downloads/Gemini-API.docx
+INFO:__main__:Reading SerpAPI key from: /home/harsha/Downloads/Serp_API.odt
+INFO:__main__:Reading Gemini API key from: /home/harsha/Downloads/Gemini-API.docx
+INFO:__main__:Reading SerpAPI key from: /home/harsha/Downloads/Serp_API.odt
+INFO:__main__:Available models: ['models/chat-bison-001', 'models/text-bison-001', 'models/embedding-gecko-001', 'models/gemini-1.0-pro-vision-latest', 'models/gemini-pro-vision', 'models/gemini-1.5-pro-latest', 'models/gemini-1.5-pro-001', 'models/gemini-1.5-pro-002', 'models/gemini-1.5-pro', 'models/gemini-1.5-flash-latest', 'models/gemini-1.5-flash-001', 'models/gemini-1.5-flash-001-tuning', 'models/gemini-1.5-flash', 'models/gemini-1.5-flash-002', 'models/gemini-1.5-flash-8b', 'models/gemini-1.5-flash-8b-001', 'models/gemini-1.5-flash-8b-latest', 'models/gemini-1.5-flash-8b-exp-0827', 'models/gemini-1.5-flash-8b-exp-0924', 'models/gemini-2.5-pro-exp-03-25', 'models/gemini-2.5-pro-preview-03-25', 'models/gemini-2.5-flash-preview-04-17', 'models/gemini-2.0-flash-exp', 'models/gemini-2.0-flash', 'models/gemini-2.0-flash-001', 'models/gemini-2.0-flash-exp-image-generation', 'models/gemini-2.0-flash-lite-001', 'models/gemini-2.0-flash-lite', 'models/gemini-2.0-flash-lite-preview-02-05', 'models/gemini-2.0-flash-lite-preview', 'models/gemini-2.0-pro-exp', 'models/gemini-2.0-pro-exp-02-05', 'models/gemini-exp-1206', 'models/gemini-2.0-flash-thinking-exp-01-21', 'models/gemini-2.0-flash-thinking-exp', 'models/gemini-2.0-flash-thinking-exp-1219', 'models/learnlm-1.5-pro-experimental', 'models/learnlm-2.0-flash-experimental', 'models/gemma-3-1b-it', 'models/gemma-3-4b-it', 'models/gemma-3-12b-it', 'models/gemma-3-27b-it', 'models/embedding-001', 'models/text-embedding-004', 'models/gemini-embedding-exp-03-07', 'models/gemini-embedding-exp', 'models/aqa', 'models/imagen-3.0-generate-002', 'models/gemini-2.0-flash-live-001']
+INFO:__main__:SerpAPI search attempt 1/3
+INFO:__main__:SerpAPI search attempt 1/3
+INFO:__main__:Available models: ['models/chat-bison-001', 'models/text-bison-001', 'models/embedding-gecko-001', 'models/gemini-1.0-pro-vision-latest', 'models/gemini-pro-vision', 'models/gemini-1.5-pro-latest', 'models/gemini-1.5-pro-001', 'models/gemini-1.5-pro-002', 'models/gemini-1.5-pro', 'models/gemini-1.5-flash-latest', 'models/gemini-1.5-flash-001', 'models/gemini-1.5-flash-001-tuning', 'models/gemini-1.5-flash', 'models/gemini-1.5-flash-002', 'models/gemini-1.5-flash-8b', 'models/gemini-1.5-flash-8b-001', 'models/gemini-1.5-flash-8b-latest', 'models/gemini-1.5-flash-8b-exp-0827', 'models/gemini-1.5-flash-8b-exp-0924', 'models/gemini-2.5-pro-exp-03-25', 'models/gemini-2.5-pro-preview-03-25', 'models/gemini-2.5-flash-preview-04-17', 'models/gemini-2.0-flash-exp', 'models/gemini-2.0-flash', 'models/gemini-2.0-flash-001', 'models/gemini-2.0-flash-exp-image-generation', 'models/gemini-2.0-flash-lite-001', 'models/gemini-2.0-flash-lite', 'models/gemini-2.0-flash-lite-preview-02-05', 'models/gemini-2.0-flash-lite-preview', 'models/gemini-2.0-pro-exp', 'models/gemini-2.0-pro-exp-02-05', 'models/gemini-exp-1206', 'models/gemini-2.0-flash-thinking-exp-01-21', 'models/gemini-2.0-flash-thinking-exp', 'models/gemini-2.0-flash-thinking-exp-1219', 'models/learnlm-1.5-pro-experimental', 'models/learnlm-2.0-flash-experimental', 'models/gemma-3-1b-it', 'models/gemma-3-4b-it', 'models/gemma-3-12b-it', 'models/gemma-3-27b-it', 'models/embedding-001', 'models/text-embedding-004', 'models/gemini-embedding-exp-03-07', 'models/gemini-embedding-exp', 'models/aqa', 'models/imagen-3.0-generate-002', 'models/gemini-2.0-flash-live-001']
+INFO:__main__:SerpAPI search attempt 1/3
+INFO:__main__:Scraping attempt 1/2 for URL: https://online-engineering.case.edu/blog/advancements-in-artificial-intelligence-and-machine-learning
+INFO:__main__:Scraping attempt 1/2 for URL: https://www.calmu.edu/news/future-of-artificial-intelligence

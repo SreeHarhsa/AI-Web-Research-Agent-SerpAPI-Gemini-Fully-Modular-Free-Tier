@@ -1,0 +1,73 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f8f9fa" />
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Web Research Agent Architecture</text>
+  
+  <!-- Input Module -->
+  <rect x="50" y="100" width="160" height="80" rx="10" fill="#e6f7ff" stroke="#1890ff" stroke-width="2" />
+  <text x="130" y="145" font-family="Arial" font-size="16" text-anchor="middle">User Input</text>
+  <text x="130" y="165" font-family="Arial" font-size="12" text-anchor="middle">Streamlit UI</text>
+  
+  <!-- Search Module -->
+  <rect x="320" y="100" width="160" height="80" rx="10" fill="#f6ffed" stroke="#52c41a" stroke-width="2" />
+  <text x="400" y="145" font-family="Arial" font-size="16" text-anchor="middle">Search Tool</text>
+  <text x="400" y="165" font-family="Arial" font-size="12" text-anchor="middle">SerpAPI</text>
+  
+  <!-- Scraper Module -->
+  <rect x="590" y="100" width="160" height="80" rx="10" fill="#fff2e8" stroke="#fa8c16" stroke-width="2" />
+  <text x="670" y="145" font-family="Arial" font-size="16" text-anchor="middle">Web Scraper</text>
+  <text x="670" y="165" font-family="Arial" font-size="12" text-anchor="middle">BeautifulSoup</text>
+  
+  <!-- Summarizer Module -->
+  <rect x="320" y="250" width="160" height="80" rx="10" fill="#f9f0ff" stroke="#722ed1" stroke-width="2" />
+  <text x="400" y="295" font-family="Arial" font-size="16" text-anchor="middle">Summarizer</text>
+  <text x="400" y="315" font-family="Arial" font-size="12" text-anchor="middle">Google Gemini API</text>
+  
+  <!-- Results Module -->
+  <rect x="50" y="250" width="160" height="80" rx="10" fill="#e6fffb" stroke="#13c2c2" stroke-width="2" />
+  <text x="130" y="295" font-family="Arial" font-size="16" text-anchor="middle">Results</text>
+  <text x="130" y="315" font-family="Arial" font-size="12" text-anchor="middle">Streamlit UI</text>
+  
+  <!-- Agent Orchestrator -->
+  <rect x="275" y="400" width="250" height="60" rx="10" fill="#fff1f0" stroke="#f5222d" stroke-width="2" />
+  <text x="400" y="435" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Web Research Agent</text>
+  
+  <!-- Arrows -->
+  <!-- Input to Search -->
+  <path d="M 210 140 L 320 140" stroke="#1890ff" stroke-width="2" fill="none" />
+  <polygon points="310,135 320,140 310,145" fill="#1890ff" />
+  
+  <!-- Search to Scraper -->
+  <path d="M 480 140 L 590 140" stroke="#52c41a" stroke-width="2" fill="none" />
+  <polygon points="580,135 590,140 580,145" fill="#52c41a" />
+  
+  <!-- Scraper to Summarizer -->
+  <path d="M 670 180 L 670 210 L 400 210 L 400 250" stroke="#fa8c16" stroke-width="2" fill="none" />
+  <polygon points="395,240 400,250 405,240" fill="#fa8c16" />
+  
+  <!-- Summarizer to Results -->
+  <path d="M 320 290 L 210 290" stroke="#722ed1" stroke-width="2" fill="none" />
+  <polygon points="220,285 210,290 220,295" fill="#722ed1" />
+  
+  <!-- Agent connections -->
+  <path d="M 400 400 L 400 330" stroke="#f5222d" stroke-width="2" fill="none" />
+  <polygon points="395,340 400,330 405,340" fill="#f5222d" />
+  
+  <path d="M 275 430 L 130 430 L 130 330" stroke="#f5222d" stroke-width="2" fill="none" />
+  <polygon points="125,340 130,330 135,340" fill="#f5222d" />
+  
+  <!-- Legend -->
+  <rect x="580" y="380" width="180" height="100" rx="5" fill="#ffffff" stroke="#d9d9d9" stroke-width="1" />
+  <text x="670" y="400" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">Legend</text>
+  
+  <rect x="600" y="415" width="15" height="15" fill="#e6f7ff" stroke="#1890ff" stroke-width="1" />
+  <text x="625" y="428" font-family="Arial" font-size="12" text-anchor="start">UI Components</text>
+  
+  <rect x="600" y="440" width="15" height="15" fill="#f9f0ff" stroke="#722ed1" stroke-width="1" />
+  <text x="625" y="453" font-family="Arial" font-size="12" text-anchor="start">AI Components</text>
+  
+  <rect x="600" y="465" width="15" height="15" fill="#fff1f0" stroke="#f5222d" stroke-width="1" />
+  <text x="625" y="478" font-family="Arial" font-size="12" text-anchor="start">Orchestration</text>
+</svg>

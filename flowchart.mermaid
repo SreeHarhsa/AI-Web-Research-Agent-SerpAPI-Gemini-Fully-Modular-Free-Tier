@@ -1,0 +1,21 @@
+flowchart TB
+    A[User Query] --> B[Search Tool]
+    B -->|SerpAPI| C[Get Search Results]
+    C --> D{Results Found?}
+    D -->|No| E[Display Error]
+    D -->|Yes| F[Scrape Content]
+    F -->|BeautifulSoup| G[Extract Text]
+    G --> H{Scraping Successful?}
+    H -->|No| E
+    H -->|Yes| I[Summarize Content]
+    I -->|Gemini API| J[Generate Summary]
+    J --> K[Display Results]
+    K --> L[Show Sources]
+
+    classDef process fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef decision fill:#bbf,stroke:#333,stroke-width:2px;
+    classDef output fill:#bfb,stroke:#333,stroke-width:2px;
+
+    class B,F,I process;
+    class D,H decision;
+    class E,K,L output;
