@@ -1,19 +1,8 @@
-# Core dependencies
-requests>=2.28.0
-beautifulsoup4>=4.11.0
-google-generativeai>=0.6.0
-python-dotenv>=1.0.0
-streamlit>=1.23.0
-
-# Document processing for API key extraction
-python-docx>=0.8.11
-
-# Testing
-pytest>=7,<8
-responses>=0.23.0
-
-# Logging and error handling
-logging>=0.5.1.2
-
-# Type hints
-typing-extensions>=4.5.0
+streamlit==1.32.2
+requests==2.31.0
+beautifulsoup4==4.12.3
+google-generativeai==0.3.2
+python-dotenv==1.0.1
+python-docx==1.1.0
+pytest==7.4.4
+responses==0.23.3
